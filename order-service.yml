@@ -15,4 +15,4 @@ logging:
     org.hibernate.type: trace
 
 gateway:
-  ip: 172.18.0.5
+  ip: 172.18.0.4
