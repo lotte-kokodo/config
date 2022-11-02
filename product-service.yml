@@ -16,3 +16,9 @@ logging:
 
 gateway:
   ip: 172.18.0.254
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, busresfresh, beans
