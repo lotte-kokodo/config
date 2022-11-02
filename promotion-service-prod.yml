@@ -1,0 +1,21 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka-service:9001/eureka
+
+spring:
+  application:
+    name: promotion-service
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+gateway:
+  ip: 172.18.0.254
