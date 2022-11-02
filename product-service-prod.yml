@@ -16,6 +16,16 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url:
+    slave-list:
+      - name: slave-1
+        url:
+      - name: slave-2
+        url:
+    username:
+    password: 
 
 gateway:
   ip: 172.18.0.254
