@@ -14,3 +14,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka-service:9001/eureka
