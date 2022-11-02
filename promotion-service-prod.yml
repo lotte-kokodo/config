@@ -10,14 +10,14 @@ spring:
     name: promotion-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: ${DATASOURCE_URL}
+    url:
     slave-list:
       - name: slave-1
-        url: ${SLAVE_1_URL}
+        url:
       - name: slave-2
-        url: ${SLAVE_2_URL}
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
+        url:
+    username:
+    password:
   rabbitmq:
     host: rabbitmq
     port: 5672
