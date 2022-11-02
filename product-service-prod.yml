@@ -10,14 +10,14 @@ spring:
     name: product-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: ${DATASOURCE_URL}
+    url: 
     slave-list:
       - name: slave-1
-        url: ${DATASOURCE_SLAVE-1_URL}
+        url:
       - name: slave-2
-        url: ${DATASOURCE_SLAVE-2_URL}
-    username: ${DATASOURCE_USERNAME}
-    password: ${DATASOURCE_PASSWORD}
+        url:
+    username:
+    password:
   rabbitmq:
     host: rabbitmq
     port: 5672
