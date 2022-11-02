@@ -22,13 +22,8 @@ spring:
         url:
       - name: slave-2
         url:
-<<<<<<< HEAD
     username:
-    password: 
-=======
-    username: 
     password:
->>>>>>> origin/main
 
 gateway:
   ip: 172.18.0.254

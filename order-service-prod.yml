@@ -17,7 +17,7 @@ spring:
       - name: slave-2
         url:
     username:
-    password:
+    password: 
   rabbitmq:
     host: rabbitmq
     port: 5672
