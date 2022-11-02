@@ -24,6 +24,6 @@ spring:
         url: ${SLAVE_2_URL}
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
-    
+
 gateway:
   ip: 172.18.0.254
