@@ -7,7 +7,7 @@ eureka:
 
 spring:
   application:
-    name: order-service
+    name: product-service
   rabbitmq:
     host: rabbitmq
     port: 5672
