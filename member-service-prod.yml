@@ -15,7 +15,7 @@ spring:
     hibernate:
       ddl-auto: create
   datasource:
-    driver-class-name: ${DATASOURCE_DRIVER_NAME}
+    driver-class-name: ${DATASOURCE_DRIVER_CLASS_NAME}
     url: ${DATASOURCE_URL}
     slave-list:
       - name: slave-1
